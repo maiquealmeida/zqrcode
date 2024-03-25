@@ -1,0 +1,49 @@
+{
+  "name": "@maiquealmeida/zqrcode",
+  "version": "0.1.0",
+  "description": "Package to make it easy to create QR Codes using complex JSON objects.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "npm run clean && tsc",
+    "test": "jest",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "comrpession",
+    "json"
+  ],
+  "author": "Maique Almeida <maique.malmeida@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maiquealmeida/zqrcode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maiquealmeida/zqrcode/issues"
+  },
+  "homepage": "https://github.com/athzuma/Criando-bibliotecas-React-Native#readme",
+  "dependencies": {
+    "jsoncrush": "^1.1.8",
+    "qrcode": "^1.5.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/qrcode": "^1.5.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.3"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "lib"
+    ]
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
