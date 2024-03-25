@@ -1,6 +1,6 @@
 import QRCode, { QRCodeToDataURLOptionsOther } from 'qrcode';
 import { qrCodeDataUrlDefaultParams, qrCodeImagestreamDefaultParams } from '../config/qrcode';
-const { PassThrough } = require('stream');
+import { PassThrough } from 'stream';
 
 export async function getDataURL(value: string) {
   const dataURL = await QRCode.toDataURL(value, qrCodeDataUrlDefaultParams);
