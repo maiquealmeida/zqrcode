@@ -1,6 +1,6 @@
 {
   "name": "@maiquealmeida/zqrcode",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Package to make it easy to create QR Codes using complex JSON objects.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
