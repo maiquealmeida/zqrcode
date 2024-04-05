@@ -1,4 +1,4 @@
-import JSONCrush from 'jsoncrush';
+import JSONCrush from '../packages/JSONCrush';
 
 
 export function compress<T = unknown>(data: T) {

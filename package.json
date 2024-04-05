@@ -1,6 +1,6 @@
 {
   "name": "@maiquealmeida/zqrcode",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Package to make it easy to create QR Codes using complex JSON objects.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -32,7 +32,6 @@
   },
   "homepage": "https://github.com/athzuma/Criando-bibliotecas-React-Native#readme",
   "dependencies": {
-    "jsoncrush": "^1.1.8",
     "qrcode": "^1.5.3"
   },
   "devDependencies": {

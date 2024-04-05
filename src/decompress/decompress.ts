@@ -1,5 +1,4 @@
-import JSONCrush from 'jsoncrush';
-
+import JSONCrush from '../packages/JSONCrush';
 
 export function decompress<T = unknown>(compressedData: string) {
   const decompressedData = JSONCrush.uncrush(compressedData)
