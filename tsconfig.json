@@ -1,16 +1,33 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ES2015",
-    "sourceMap": true,
-    "outDir": "./lib",
+    "target": "es2017",
+    "module": "commonjs",
+    "lib": [
+      "es6"
+    ],
+    "allowJs": true,
+    "outDir": "./dist",
     "rootDir": "./src",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "isolatedModules": true,
+    "removeComments": false,
     "strict": true,
+    "moduleResolution": "node",
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
     "esModuleInterop": true,
-    "declaration": true
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
   },
+  "newLine": "lf",
   "include": [
-    "src"
+    "src/**/*"
   ],
   "exclude": [
     "**/*.spec.ts"

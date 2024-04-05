@@ -1,4 +1,4 @@
-import QRCode, { QRCodeToDataURLOptionsOther, QRCodeToFileStreamOptions } from 'qrcode';
+import { QRCodeToDataURLOptionsOther, QRCodeToFileStreamOptions } from 'qrcode';
 
 export const qrCodeDataUrlDefaultParams: QRCodeToDataURLOptionsOther = {
   type: 'image/png',

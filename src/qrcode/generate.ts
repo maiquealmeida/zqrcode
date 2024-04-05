@@ -1,4 +1,4 @@
-import QRCode, { QRCodeToDataURLOptionsOther } from 'qrcode';
+import * as QRCode from 'qrcode';
 import { qrCodeDataUrlDefaultParams, qrCodeImagestreamDefaultParams } from '../config/qrcode';
 import { PassThrough } from 'stream';
 import { QrCodeStreamPassThrough } from './types'
